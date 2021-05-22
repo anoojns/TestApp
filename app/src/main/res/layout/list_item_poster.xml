@@ -30,7 +30,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:imageUrl="@{poster.posterimage}"/>
+            app:imageUrl="@{poster.posterimage}"
+            tools:src="@drawable/poster1"/>
 
 
         <TextView
@@ -48,7 +49,8 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:text="@string/sample_the_birds"
             app:contentText="@{poster.name}"
-            app:searchText="@{searchText}" />
+            app:searchText="@{searchText}"
+            android:paddingBottom="@dimen/padding_medium"/>
 
         <!--android:text="@{poster.name}"-->
 
