@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+        <variable
+            name="poster"
+            type="com.interview.test.model.Poster" />
+
+        <variable
+            name="searchText"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_medium">
+
+        <ImageView
+            android:id="@+id/iv_poster"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/tv_title_poster"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:imageUrl="@{poster.posterimage}"/>
+
+
+        <TextView
+            android:id="@+id/tv_title_poster"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="@string/sample_the_birds"
+            app:contentText="@{poster.name}"
+            app:searchText="@{searchText}" />
+
+        <!--android:text="@{poster.name}"-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
