@@ -5,7 +5,7 @@
     <data>
         <variable
             name="poster"
-            type="com.interview.test.model.Poster" />
+            type="com.interview.test.data.model.Poster" />
 
         <variable
             name="searchText"

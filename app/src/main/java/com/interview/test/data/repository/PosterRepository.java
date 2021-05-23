@@ -1,9 +1,9 @@
-package com.interview.test.model.repository;
+package com.interview.test.data.repository;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.interview.test.model.api_response.PosterListResponse;
+import com.interview.test.data.model.api_response.PosterListResponse;
 import com.interview.test.utils.DataReader;
 
 public class PosterRepository {

@@ -1,8 +1,8 @@
-package com.interview.test.model.api_response;
+package com.interview.test.data.model.api_response;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
-import com.interview.test.model.Poster;
+import com.interview.test.data.model.Poster;
 
 import java.util.List;
 

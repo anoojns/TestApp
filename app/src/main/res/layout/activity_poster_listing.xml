@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".view.poster_listing.PosterListingActivity">
+        tools:context=".view.posterlisting.PosterListingActivity">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recyclerView"

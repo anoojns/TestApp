@@ -1,4 +1,4 @@
-package com.interview.test.model;
+package com.interview.test.data.model;
 
 import com.google.gson.annotations.SerializedName;
 

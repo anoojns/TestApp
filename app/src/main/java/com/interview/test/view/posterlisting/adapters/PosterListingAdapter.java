@@ -1,19 +1,13 @@
-package com.interview.test.view.poster_listing.adapters;
+package com.interview.test.view.posterlisting.adapters;
 
-import android.graphics.Color;
-import android.text.Spannable;
-import android.text.TextUtils;
-import android.text.style.ForegroundColorSpan;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.interview.test.databinding.ListItemPosterBinding;
-import com.interview.test.model.Poster;
+import com.interview.test.data.model.Poster;
 
 import java.util.List;
 
